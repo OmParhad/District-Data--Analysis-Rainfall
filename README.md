@@ -43,7 +43,26 @@ The dataset contains rainfall measurements for different talukas in Buldhana dis
 The dataset is loaded using Pandas, and the rainfall columns for June–September 2025 are selected.
 The `Taluka` column is used as the index to create a matrix suitable for visualization.
 
-```python
-month_columns = ['Jun-25', 'Jul-25', 'Aug-25', 'Sep-25']
+The data cover the following Talukas in the analysis:
+-**Jalgaon Jamod**,
+- **Sangrampur**,
+- **Chikhali**,
+- **Buldhana**,
+- **Deulgaon Raja**,
+- **Mehkar**,
+- **Sindkhed Raja**,
+- **Lonar**,
+- **Khamgaon**,
+- **Shegaon**,
+- **Malkapur**,
+- **Motala**,
+- **Nandura**
 
-df_heatmap_data = df.set_index('Taluka')[month_columns]
+# The key purpose of Data Set Analysis 
+- **Working with real-world tabular data**
+- **Data selection and transformation using Pandas**  
+- **Organizing data for visualization** 
+- **Exploratory data visualization**  
+- **Creating interactive visualizations with Plotly** 
+  
+
